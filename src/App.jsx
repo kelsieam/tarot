@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import theFoolImage from '/home/kelsiethefirst/src/tarot/src/assets/RWS_Tarot_00_Fool.jpg'
 import theMagicianImage from '/home/kelsiethefirst/src/tarot/src/assets/RWS_Tarot_01_Magician.jpg'
