@@ -8,11 +8,6 @@ function App() {
   const [count, setCount] = useState(0)
   const [spread, setSpread] = useState("")
 
-  // function handleSetSpread(selectedSpread) {
-  //   console.log("handleSetSpread", spread);
-  //   
-  // }
-
   function handleSelectSpread() {
     console.log("handleSelectedSpread", event.target.value);
     const selectedSpread = event.target.value
@@ -31,16 +26,12 @@ function App() {
         {/* <button onClick={handleSetSpread}> */}
         spread is {spread}
         <h1>{spread}</h1>
-        {/* </button> */}
       </div>
       <div>
         <select name="spread" onChange={handleSelectSpread}>
           <option value="singleCard" onClick={handleSelectSpread}>single card</option>
           <option value="pastPresentFuture" onClick={handleSelectSpread}>past present future</option>
         </select>
-        {/* <button onClick={handleSetSpread}>
-          select
-        </button> */}
       </div>
     </>
   )
