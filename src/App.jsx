@@ -17,19 +17,24 @@ function App() {
   return (
     <>
       <div>
+          <h2>Single Card</h2>
+          <img src={theMagicianImage} className="card-image" />
 
-          <img src={theFoolImage} className="logo" />  
-          <img src={theMagicianImage} className="logo" />
+      </div>      
+      <div>
+          <h2>Past, Present, Future</h2>
+          <img src={theFoolImage} className="card-image" />  
+          <img src={theMagicianImage} className="card-image" />
+          <img src={highPriestessImage} className="card-image" />
 
       </div>
-      <div className="card" id="singleCard">
-        {/* <button onClick={handleSetSpread}> */}
+      <div>
         spread is {spread}
         <h1>{spread}</h1>
       </div>
       <div>
         <select name="spread" onChange={handleSelectSpread}>
-          <option value="singleCard" onClick={handleSelectSpread}>single card</option>
+          <option value="singleCard" onClick={handleSelectSpread}>single card-image</option>
           <option value="pastPresentFuture" onClick={handleSelectSpread}>past present future</option>
         </select>
       </div>
