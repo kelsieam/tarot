@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import theFoolImage from '/home/kelsiethefirst/src/tarot/src/assets/RWS_Tarot_00_Fool.jpg'
-import theMagicianImage from '/home/kelsiethefirst/src/tarot/src/assets/RWS_Tarot_01_Magician.jpg'
+import theFoolImage from './assets/RWS_Tarot_00_Fool.jpg'
+import theMagicianImage from './assets/RWS_Tarot_01_Magician.jpg'
+import highPriestessImage from './assets/RWS_Tarot_02_High_Priestess.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
